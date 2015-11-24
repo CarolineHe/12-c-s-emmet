@@ -1,0 +1,1742 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cheat sheet EMMET</title>
+    <meta name="description" content="cheat sheet Emmet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css" />
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet" type="text/css" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+
+</head>
+
+
+<body id="top_of_page">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- content-->
+
+    <div class="callout primary">
+        <div class="row column">
+            <h1>EMMET</h1>
+
+
+            <div class="expanded button-group hidden-for-small-only">
+                <a href="#panel1" class="secondary button"><i class="fa fa-indent fa-3x"></i> SYNTAX</a>
+                <a href="#panel2" class="secondary button"><i class="fa fa-html5 fa-3x"></i> HTML</a>
+                <a href="#panel3" class="secondary button"><i class="fa fa-css3 fa-3x"></i> CSS</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="large-12 columns">
+
+                <ul class="small-block-grid-1 medium-block-grid-1">
+                    <li>
+                        <dl class="accordion" data-accordion="myaccordiongroup">
+                            <!--FIRST PANEL SYNTAX-->
+                            <dd>
+                                <a href="#panel1"><i class="fa fa-indent fa-4x"></i><span> SYNTAX</span></a>
+
+                                <div id="panel1" class="content">
+                                    <table>
+                                        <thead>
+                                            <tr>
+
+                                                <th width="350">
+                                                    <strong>Child :&gt;</strong>
+                                                </th>
+
+                                                <th width="350"></th>
+
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>nav&gt;ul&gt;li</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;nav&gt;</li>
+                                                    <li>&nbsp;&lt;ul&gt;</li>
+                                                    <li>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;</li>
+                                                    <li>&nbsp;&nbsp;&lt;/ul&gt;</li>
+                                                    <li>&nbsp;&lt;/nav&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>Multiplication: *</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>ul&gt;li*5</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;&nbsp;li&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;&nbsp;li&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;&nbsp;li&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;&nbsp;li&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;&nbsp;li&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;/ul&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>Sibling: +</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>div+p+bq</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;div&gt;&lt;/div&gt;</li>
+                                                    <li>&lt;p&gt;&lt;/p&gt;</li>
+                                                    <li>&lt;blockquote&gt;&lt;/blockquote&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">Climb-up: ^</th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>div+div&gt;p&gt;span+em^bq</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>div+div&gt;p&gt;span+em^^bq</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;div&gt;&lt;/div&gt;</li>
+                                                    <li>&lt;div&gt;</li>
+                                                    <li>&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</li>
+                                                    <li>&lt;/div&gt;</li>
+                                                    <li>&lt;blockquote&gt;&lt;/blockquote&gt;</li>
+                                                </td>
+                                                <td>
+                                                    <li>&lt;div&gt;&lt;/div&gt;</li>
+                                                    <li>&lt;div&gt;</li>
+                                                    <li>&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</li>
+                                                    <li>&lt;blockquote&gt;&lt;/blockquote&gt;</li>
+                                                    <li>&lt;/div&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>Grouping: ()</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>(div&gt;dl&gt;(dt+dd)*3)+footer&gt;p</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;div&gt;</li>
+                                                    <li>&lt;header&gt;</li>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;/header&gt;</li>
+                                                    <li>&lt;footer&gt;</li>
+                                                    <li>&lt;p&gt;&lt;/p&gt;</li>
+                                                    <li>&lt;/footer&gt;</li>
+                                                    <li>&lt;/div&gt;</li>
+                                                </td>
+                                                <td>
+                                                    <li>&lt;div&gt;</li>
+                                                    <li>&lt;dl&gt;</li>
+                                                    <li>&lt;dt&gt;&lt;/dt&gt;</li>
+                                                    <li>&lt;dd&gt;&lt;/dd&gt;</li>
+                                                    <li>&lt;dt&gt;&lt;/dt&gt;</li>
+                                                    <li>&lt;dd&gt;&lt;/dd&gt;</li>
+                                                    <li>&lt;dt&gt;&lt;/dt&gt;</li>
+                                                    <li>&lt;dd&gt;&lt;/dd&gt;</li>
+                                                    <li>&lt;/dl&gt;</li>
+                                                    <li>&lt;/div&gt;</li>
+                                                    <li>&lt;/footer&gt;</li>
+                                                    <li>&lt;p&gt;&lt;/p&gt;</li>
+                                                    <li>&lt;/footer&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>Text: {}</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>a{Click me}</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>p&gt;{Click }+a{here}+{ to continue}</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    &lt;a href=""&gt;Click me&lt;/a&gt;
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to continue&lt;/p&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>item numbering:$</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>ul&gt;li.item$*5</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>h$[title=item$]{Header $}*3</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>ul&gt;li.item$$$*5</strong>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;li class="item1"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item2"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item3"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item4"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item5"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;/ul&gt;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;h1 title="item1"&gt;Header 1&lt;/h1&gt;</li>
+                                                    <li>&lt;h2 title="item2"&gt;Header 1&lt;/h2&gt;</li>
+                                                    <li>&lt;h3 title="item3"&gt;Header 1&lt;/h3&gt;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;li class="item001"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item002"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item003"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item004"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item005"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;/ul&gt;</li>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <strong>ul&gt;li.item$@-*5</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>ul&gt;li.item$@3*5</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;li class="item5"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item4"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item3"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item2"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item1"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;/ul&gt;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;ul&gt;</li>
+                                                    <li>&lt;li class="item3"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item4"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item5"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item6"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;li class="item7"&gt;&lt;/li&gt;</li>
+                                                    <li>&lt;/ul&gt;</li>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>ID and CLASS attributes</strong>
+                                                </th>
+                                                <th width="350"></th>
+                                                <th width="350"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>#header</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>.title</strong>
+                                                </td>
+                                                <td>
+                                                    <strong>form#search.wide5</strong>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;div id="header"&gt;&lt;/div&gt;</li>
+
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;div class="title"&gt;Header 1&lt;/h1&gt;&lt;/div&gt;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>&lt;form id="search" class="wide"&gt;&lt;/form&gt;</li>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <strong>p.class1.class2.class3</strong>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <li>&lt;p class="class1 class2 class3"&gt;&lt;/p&gt;</li>
+
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                </div>
+                            </dd>
+
+
+                            <!--SECOND PANEL HTML-->
+
+                            <dd>
+                                <a href="#panel2"><i class="fa fa-html5 fa-5x"></i><span> HTML</span></a>
+
+                                <div id="panel2" class="content">
+                                    <p>All unknown abbreviations will be transformed to tag, e.g. foo → &lt;foo&gt;&lt;/foo&gt;.</p>
+
+                                    <ul class="ABC-book" role="menubar" aria-label="ABC-book">
+                                        <li class="arrow unavailable" aria-disabled="true">
+                                            <li class="current"><a href="#A">A</a></li>
+                                            <li><a href="#B">B</a></li>
+                                            <li><a href="#C">C</a></li>
+                                            <li><a href="#D">D</a></li>
+                                            <li><a href="#E">E</a></li>
+                                            <li><a href="#F">F</a></li>
+                                            <li><a href="#G">G</a></li>
+                                            <li><a href="#H">H</a></li>
+                                            <li><a href="#I">I</a></li>
+                                            <li><a href="#J">J</a></li>
+                                            <li><a href="#K">K</a></li>
+                                            <li><a href="#L">L</a></li>
+                                            <li><a href="#M">M</a></li>
+                                            <li><a href="#N">N</a></li>
+                                            <li><a href="#O">O</a></li>
+                                            <li><a href="#P">P</a></li>
+                                            <li><a href="#Q">Q</a></li>
+                                            <li><a href="#R">R</a></li>
+                                            <li><a href="#S">S</a></li>
+                                            <li><a href="#T">T</a></li>
+                                            <li><a href="#U">U</a></li>
+                                            <li><a href="#V">V</a></li>
+                                            <li><a href="#W">W</a></li>
+                                            <li><a href="#X">X</a></li>
+                                            <li><a href="#Y">Y</a></li>
+                                            <li><a href="#Z">Z</a></li>
+                                        </li>
+                                    </ul>
+
+                                    <p>
+                                        <p class="id">
+                                            <strong> ! </strong>
+                                        </p>
+                                        <br> Alias of html:5
+                                        <br> &lt;!DOCTYPE html&gt;
+                                        <br> &lt;html lang="en"&gt;
+                                        <br> &lt;head&gt;
+                                        <br> &lt;meta charset="UTF-8" /&gt;
+                                        <br> &lt;title&gt;Document&lt;/title&gt;
+                                        <br> &lt;/head&gt;
+                                        <br> &lt;body&gt;
+                                        <br> &lt;/body&gt;
+                                        <br> &lt;/html&gt;
+                                        <br>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--A-->
+                                    <p id="A">
+                                        <strong>A</strong>
+                                    </p>
+                                    <p>
+                                        <strong> a </strong>
+                                        <br> &lt;a href=""&gt;&lt;/a&gt;</p>
+                                    <p>
+                                        <strong>a:link</strong>
+                                        <br> &lt;a href="http://"&gt;&lt;/a&gt;</p>
+                                    <p>
+                                        <strong> a:mail </strong>
+                                        <br> &lt;a href="mailto:""&gt;&lt;/a&gt;</p>
+                                    <p>
+                                        <strong> abbr </strong>
+                                        <br> &lt;abbr title=""&gt;&lt;/abbr&gt;</p>
+                                    <p>
+                                        <strong> acronym,acr </strong>
+                                        <br> &lt;acronym title=""&gt;&lt;/acronym&gt;</p>
+                                    <p>
+                                        <strong> area </strong>
+                                        <br> &lt;area shape="" coords="" href="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> area d </strong>
+                                        <br> &lt;area shape="default" href="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> area c </strong>
+                                        <br> &lt;area shape="circle" coords="" href="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> area r </strong>
+                                        <br> &lt;area shape="rect" coords="" href="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> area p </strong>
+                                        <br> &lt;area shape="poly" coords="" href="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> audio </strong>
+                                        <br> &lt;audio src=""&gt;&lt;/audio&gt;</p>
+                                    <p>
+                                        <strong> art </strong>
+                                        <br> Alias of article
+                                        <br> &lt;article&gt;&lt;/article&gt;
+                                    </p>
+                                    <p>
+                                        <strong> adr </strong>
+                                        <br> Alias of address
+                                        <br> &lt;adress&gt;&lt;/adress&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--B-->
+                                    <p id="B">
+                                        <strong>B</strong>
+                                    </p>
+                                    <p>
+                                        <strong> base </strong>
+                                        <br> &lt;base href=""/&gt;</p>
+                                    <p>
+                                        <strong> basefont </strong>
+                                        <br> &lt;basefont href=""/&gt;</p>
+                                    <p>
+                                        <strong> br </strong>
+                                        <br> &lt;br/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> bdo </strong>
+                                        <br> &lt;bdo dir=""&gt;&lt;/bdo&gt;</p>
+                                    <p>
+                                        <strong> bdo : r </strong>
+                                        <br> &lt;bdo dir="rtl"&gt;&lt;/bdo&gt;</p>
+                                    <p>
+                                        <strong> bdo : l </strong>
+                                        <br> &lt;bdo dir="ltr"&gt;&lt;/bdo&gt;</p>
+                                    <p>
+                                        <strong> button:submit, button:s, btn:s </strong>
+                                        <br> Alias of button[type=submit]
+                                        <br> &lt;button type="submit"&gt;&lt;/button&gt;</p>
+                                    <p>
+                                        <strong> button:reset, button:r, btn:r </strong>
+                                        <br> Alias of button[type=reset]
+                                        <br> &lt;button type="submit"button type="reset"&gt;&lt;/button&gt;</p>
+                                    <p>
+                                        <strong> button:disabled, button:d, btn:d </strong>
+                                        <br> Alias of button[disabled.]
+                                        <br> &lt;button disabled="disabled"&gt;&lt;/button&gt;</p>
+                                    <p>
+                                        <strong> bq </strong>
+                                        <br> Alias of blockquote
+                                        <br> &lt;blockquote&gt;&lt;/blockquote&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--C-->
+                                    <p id="C">
+                                        <strong>C</strong>
+                                    </p>
+                                    <p>
+                                        <strong> col </strong>
+                                        <br> &lt;/col&gt;
+                                    </p>
+                                    <p>
+                                        <strong> caption </strong>
+                                        <br> &lt;caption&gt;&lt;/caption&gt;
+                                    </p>
+                                    <p>
+                                        <strong> colg </strong>
+                                        <br> Alias of colgroup
+                                        <br> &lt;colgroup&gt;&lt;/colgroup&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--D-->
+                                    <p id="D">
+                                        <strong>D</strong>
+                                    </p>
+                                    <p>
+                                        <strong> dlg </strong>
+                                        <br> Alias of dialog
+                                        <br> &lt;dialog&gt;&lt;/dialog&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--E-->
+                                    <p id="E">
+                                        <strong>E</strong>
+                                    </p>
+                                    <p>
+                                        <strong> embed </strong>
+                                        <br> &lt;embed src="" type="" /&gt;</p>
+                                    <p>
+                                        <strong> dl+ </strong>
+                                        <br> Alias of dl&gt;dt+dd
+                                        <br> &lt;dl&gt;
+                                        <br> &lt;&gt;dt&lt;/dt&gt;
+                                        <br> &lt;&gt;dd&lt;/dd&gt;
+                                        <br> &lt;dl&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--F-->
+                                    <p id="F">
+                                        <strong>F</strong>
+                                    </p>
+                                    <p>
+                                        <strong> frame </strong>
+                                        <br> &lt;frame/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> form </strong>
+                                        <br> &lt;form action=""&gt;&lt;/form&gt;</p>
+                                    <p>
+                                        <strong> form:get </strong>
+                                        <br> &lt;form action="" method="get"&gt;&lt;/form&gt;</p>
+                                    <p>
+                                        <strong> form:post </strong>
+                                        <br> &lt;form action="" method="post"&gt;&lt;/form&gt;</p>
+                                    <p>
+                                        <strong> fieldset:disabled, fieldset:d, fset:d, fst:d </strong>
+                                        <br> Alias of fieldset[disabled.]
+                                        <br> &lt;fieldset disabled="disabled"&gt;&lt;/fieldset&gt;</p>
+                                    <p>
+                                        <strong> fig </strong>
+                                        <br> Alias of figure
+                                        <br> &lt;figure&gt;&lt;/figure&gt;
+                                    </p>
+                                    <p>
+                                        <strong> figc </strong>
+                                        <br> Alias of figcaption
+                                        <br> &lt;figcaption&gt;&lt;/figcaption&gt;
+                                    </p>
+                                    <p>
+                                        <strong> ftr </strong>
+                                        <br> Alias of footer
+                                        <br> &lt;footer&gt;&lt;/footer&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--H-->
+                                    <p id="H">
+                                        <strong>H</strong>
+                                    </p>
+                                    <p>
+                                        <strong> hr </strong>
+                                        <br> &lt;hr/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> hdr </strong>
+                                        <br> Alias of header
+                                        <br> &lt;header&gt;&lt;/header&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--I-->
+                                    <p id="I">
+                                        <strong>I</strong>
+                                    </p>
+                                    <p>
+                                        <strong> img </strong>
+                                        <br> &lt;img src="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> img:srcset, img:s </strong>
+                                        <br> &lt;img srcset="" src="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> img:sizes, img:z </strong>
+                                        <br> &lt;img sizes="" srcset="" src="" alt="" /&gt;</p>
+                                    <p>
+                                        <strong> iframe </strong>
+                                        <br> &lt;iframe src="" frameborder="0"&gt;&lt;iframe/&gt;</p>
+                                    <p>
+                                        <strong> input </strong>
+                                        <br> &lt;input type="text"/&gt;</p>
+                                    <p>
+                                        <strong> inp </strong>
+                                        <br> &lt;input type="text" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:hidden, input:h </strong>
+                                        <br> Alias of input[type=hidden name]
+                                        <br> &lt;input type="hidden" name=""/&gt;</p>
+                                    <p>
+                                        <strong> input:text, input:t</strong>
+                                        <br> Alias of inp
+                                        <br> &lt;input type="text" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:search</strong>
+                                        <br> Alias of inp[type=search]
+                                        <br> &lt;input type="search" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:email</strong>
+                                        <br> Alias of inp[type=email]
+                                        <br> &lt;input type="email" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:url</strong>
+                                        <br> Alias of inp[type=url]
+                                        <br> &lt;input type="url" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:password, input:p</strong>
+                                        <br> Alias of inp[type=password]
+                                        <br> &lt;input type="password" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:datetime</strong>
+                                        <br> Alias of inp[type=datetime]
+                                        <br> &lt;input type="datetime" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:date</strong>
+                                        <br> Alias of inp[type=date]
+                                        <br> &lt;input type="date" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:datetime-local</strong>
+                                        <br> Alias of inp[type=datetime-local]
+                                        <br> &lt;input type="datetime-local" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:month</strong>
+                                        <br> Alias of inp[type=month]
+                                        <br> &lt;input type="month" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong>input:week</strong>
+                                        <br> Alias of inp[type=week]
+                                        <br> &lt;input type="week" name="" id=""/&gt;</p>
+                                    <p>
+                                        <strong> input:image, input:i</strong>
+                                        <br> &lt;input type="image" src="" alt=""/&gt;</p>
+                                    <p>
+                                        <strong> input:button, input:b</strong>
+                                        <br> &lt;input type="button" value=""/&gt;</p>
+                                    <p>
+                                        <strong> ifr</strong>
+                                        <br> Alias of iframe
+                                        <br> &lt;iframe src="" frameborder="0"&gt;&lt;/&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a></p>
+                                    <!--L-->
+                                    <p id="L">
+                                        <strong>L</strong>
+                                    </p>
+                                    <p>
+                                        <strong> label </strong>
+                                        <br> &lt;label for=""&gt;&lt;/label&gt;</p>
+                                    <p>
+                                        <strong> link </strong>
+                                        <br> &lt;link rel="stylesheet" href=""/&gt;</p>
+                                    <p>
+                                        <strong> link:css </strong>
+                                        <br> &lt;link rel="stylesheet" href="style.css"/&gt;</p>
+                                    <p>
+                                        <strong> link:print </strong>
+                                        <br> &lt;link rel="stylesheet" href="print.css" media="print"/&gt;</p>
+                                    <p>
+                                        <strong> link:favicon </strong>
+                                        <br> &lt;link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/&gt;</p>
+                                    <p>
+                                        <strong> link:touch </strong>
+                                        <br> &lt;link rel="apple-touch-icon" href="favicon.png"/&gt;</p>
+                                    <p>
+                                        <strong> link:rss </strong>
+                                        <br> &lt;link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml"/&gt;</p>
+                                    <p>
+                                        <strong> link:import, link:im </strong>
+                                        <br> &lt;link rel="import" href="component.html" /&gt;</p>
+                                    <p>
+                                        <strong> leg </strong>
+                                        <br> &lt;legend&gt;&lt;/legend&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--M-->
+                                    <p id="M">
+                                        <strong>M</strong>
+                                    </p>
+                                    <p>
+                                        <strong> meta </strong>
+                                        <br> &lt;/meta&gt;
+                                    </p>
+                                    <p>
+                                        <strong> meta:utf </strong>
+                                        <br> &lt;meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /&gt;</p>
+                                    <p>
+                                        <strong> meta:win </strong>
+                                        <br> &lt;meta http-equiv="Content-Type" content="text/html;charset=windows-1251" /&gt;</p>
+                                    <p>
+                                        <strong> meta:vp </strong>
+                                        <br> &lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /&gt;</p>
+                                    <p>
+                                        <strong> meta:compat </strong>
+                                        <br> &lt;meta http-equiv="X-UA-Compatible" content="IE=7" /&gt;</p>
+                                    <p>
+                                        <strong> map </strong>
+                                        <br> &lt;map name=""&gt;&lt;/map&gt;</p>
+                                    <p>
+                                        <strong>menu:context, menu:c</strong>
+                                        <br> Alias of menu[type=context]&gt;
+                                        <br> &lt;menu type="context"&gt;&lt;/menu&gt;</p>
+                                    <p>
+                                        <strong>menu:toolbar, menu:t</strong>
+                                        <br> Alias of menu[type=toolbar]&gt;
+                                        <br> &lt;menu type="toolbar"&gt;&lt;/menu&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--O-->
+                                    <p id="O">
+                                        <strong>O</strong>
+                                    </p>
+                                    <p>
+                                        <strong> object </strong>
+                                        <br> &lt;object data="" type=""&gt;&lt;/object&gt;</p>
+                                    <p>
+                                        <strong> option, opt </strong>
+                                        <br> &lt;option value=""&gt;&lt;/option&gt;</p>
+                                    <p>
+                                        <strong> out </strong>
+                                        <br> Alias of output
+                                        <br> &lt;output&gt;&lt;output/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> ol+ </strong>
+                                        <br> Alias of ol&gt;li
+                                        <br> &lt;ol&gt;
+                                        <br> &lt;&gt;li&lt;/li&gt;
+                                        <br> &lt;/ol&gt;
+                                        <br>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--P-->
+                                    <p id="P">
+                                        <strong>P</strong>
+                                    </p>
+                                    <p>
+                                        <strong> picture </strong>
+                                        <br> &lt;picture&gt;&lt;picture/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> param </strong>
+                                        <br> &lt;param name="" value="" /&gt;</p>
+                                    <p>
+                                        <strong>pic</strong>
+                                        <br> Alias of picture
+                                        <br> &lt;picture&gt;&lt;/picture&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--S-->
+                                    <p id="S">
+                                        <strong>S</strong>
+                                    </p>
+                                    <p>
+                                        <strong> style </strong>
+                                        <br> &lt;style&gt;&lt;style/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> script </strong>
+                                        <br> &lt;script&gt;&lt;script/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> script:src </strong>
+                                        <br> &lt;script src=""&gt;&lt;script/&gt;</p>
+                                    <p>
+                                        <strong> source,src </strong>
+                                        <br> &lt;/source&gt;
+                                    </p>
+                                    <p>
+                                        <strong> source:src, src:sc </strong>
+                                        <br> &lt;source src="" type="" /&gt;</p>
+                                    <p>
+                                        <strong> source:srcset, src:s </strong>
+                                        <br> &lt;source srcset="" /&gt;</p>
+                                    <p>
+                                        <strong> source:media, src:m </strong>
+                                        <br> &lt;source media="(min-width: )" srcset="" /&gt;</p>
+                                    <p>
+                                        <strong> source:type, src:t </strong>
+                                        <br> &lt;source srcset="" type="image/" /&gt;</p>
+                                    <p>
+                                        <strong> source:sizes, src:z </strong>
+                                        <br> &lt;source sizes="" srcset="" /&gt;</p>
+                                    <p>
+                                        <strong> source:media:type, src:mt </strong>
+                                        <br> &lt;source media="(min-width: )" srcset="" type="image/" /&gt;</p>
+                                    <p>
+                                        <strong> source:media:sizes, src:mz </strong>
+                                        <br> &lt;source media="(min-width: )" sizes="" srcset="" /&gt;</p>
+                                    <p>
+                                        <strong> source:sizes:type, src:zt </strong>
+                                        <br> &lt;source sizes="" srcset="" type="image/" /&gt;</p>
+                                    <p>
+                                        <strong> select </strong>
+                                        <br> &lt;select name="" id=""&gt;&lt;select/&gt;</p>
+                                    <p>
+                                        <strong> select:disabled, select:d </strong>
+                                        <br> Alias of select[disabled.]
+                                        <br> &lt;select name="" id="" disabled="disabled"&gt;&lt;select/&gt;</p>
+                                    <p>
+                                        <strong> sect </strong>
+                                        <br> &lt;section&gt;&lt;section/&gt;
+                                    </p>
+                                    <p>
+                                        <strong> str </strong>
+                                        <br> Alias of strong
+                                        <br> &lt;strong&gt;&lt;strong/&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--T-->
+                                    <p id="T">
+                                        <strong>T</strong>
+                                    </p>
+                                    <p>
+                                        <strong> textarea </strong>
+                                        <br> &lt;textarea name="" id="" cols="30" rows="10"&gt;&lt;/textarea&gt;</p>
+                                    <p>
+                                        <strong> table+ </strong>
+                                        <br> Alias of table&gt;tr&gt;td
+                                        <br> &lt;table&gt;
+                                        <br> &lt;tr&gt;
+                                        <br> &lt;td&gt;&lt;/td&gt;
+                                        <br> &lt;/tr&gt;
+                                        <br> &lt;/table&gt;
+                                    </p>
+                                    <p>
+                                        <strong> tr+ </strong>
+                                        <br> Alias of tr&gt;td
+                                        <br> &lt;tr&gt;
+                                        <br> &lt;td&gt;&lt;/td&gt;
+                                        <br> &lt;/tr&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--U-->
+                                    <p id="U">
+                                        <strong>U</strong>
+                                    </p>
+                                    <p>
+                                        <strong> ul+ </strong>
+                                        <br> Alias of ul&gt;li
+                                        <br> &lt;ul&gt;
+                                        <br> &lt;&gt;li&lt;/li&gt;
+                                        <br> &lt;/ul&gt;
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                    </p>
+                                    <!--V-->
+                                    <p id="V">
+                                        <strong>V</strong>
+                                    </p>
+                                    <p>
+                                        <strong> video </strong>
+                                        <br> &lt;video src=""&gt;&lt;/video&gt;</p>
+
+                                    <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa-1x"></i></a>
+                                </div>
+                            </dd>
+
+
+                            <!--THIRD PANEL CSS-->
+                            <dd>
+                                <a href="#panel3"><i class="fa fa-css3 fa-4x"></i><span> CSS</span></a>
+
+                                <div id="panel3" class="content">
+                                    <p>
+                                        <strong>Visual formatting</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>pos = position</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>t = top r = right l = left b = bottom</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>z = z-index</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> pos:s </strong>position:static;</li>
+                                                    <li>
+                                                        <strong> pos:a </strong> position:auto;</li>
+                                                    <li>
+                                                        <strong> pos:r </strong> position:relative;</li>
+                                                    <li>
+                                                        <strong> pos:f </strong> position:fixed;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> t:r </strong> top:right;</li>
+                                                    <li>
+                                                        <strong> t:a </strong> top:auto;</li>
+                                                    <li>
+                                                        <strong> t:l </strong> top:left;</li>
+                                                    <li>
+                                                        <strong> t:b </strong> top:bottom;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> z:a </strong> z-index:auto;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>fl = float</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>cl = clear</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>d = display</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> fl </strong>float:left;</li>
+                                                    <li>
+                                                        <strong> fl:n </strong> float:none;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> cl </strong> clear:both;</li>
+                                                    <li>
+                                                        <strong> cl:n </strong> clear:none;</li>
+                                                    <li>
+                                                        <strong> cl:l </strong> clear:left;</li>
+                                                    <li>
+                                                        <strong> cl:r </strong> clear:right;</li>
+                                                    <li>
+                                                        <strong> cl:b </strong> clear:both;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> d:b </strong> display:block;</li>
+                                                    <li>
+                                                        <strong> d:n </strong> display:none;</li>
+                                                    <li>
+                                                        <strong> d:f </strong> display:flex;</li>
+                                                    <li>
+                                                        <strong> d:if </strong> display:inline-flex;</li>
+                                                    <li>
+                                                        <strong> d:i </strong> display:inline;</li>
+                                                    <li>
+                                                        <strong> d:ib </strong> display:inline-block;</li>
+                                                    <li>
+                                                        <strong> d:li </strong> display:list-item;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>v = visibility</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>ov = overflow</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>rsz = resize</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> v </strong>visibility:hidden;</li>
+                                                    <li>
+                                                        <strong> v:v </strong> visibility:visible;</li>
+                                                    <li>
+                                                        <strong> v:h </strong>visibility:hidden;</li>
+                                                    <li>
+                                                        <strong> v:h </strong>visibility:collapse;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> ov </strong> overflow:hidden;</li>
+                                                    <li>
+                                                        <strong> ov:v </strong> overflow:visible;</li>
+                                                    <li>
+                                                        <strong> ov:h </strong> overflow:hidden;</li>
+                                                    <li>
+                                                        <strong> ov:a </strong> overflow:auto;</li>
+                                                    <li>
+                                                        <strong> ovx </strong> overflow-x:hidden;</li>
+                                                    <li>
+                                                        <strong> ovy:v </strong> overflow-y:visible;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>
+                                                        <strong> rsz:n </strong> resize:none;</li>
+                                                    <li>
+                                                        <strong> rsz:b </strong> resize:both;</li>
+                                                    <li>
+                                                        <strong> rsz:h </strong> resize:horizontal;</li>
+                                                    <li>
+                                                        <strong> rsz:v </strong> resize:vertical;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa 1x"></i></a>
+                                    </p>
+                                    <p>
+                                        <strong>Margin and Padding</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>m = margin</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>p = padding</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong></strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> m:a </strong>margin:auto;</li>
+                                                    <li>
+                                                        <strong> mt </strong> margin-top:;</li>
+                                                    <li>
+                                                        <strong> mt:a </strong> margin-top:auto;</li>
+                                                    <li>
+                                                        <strong> mr </strong> margin-right:;</li>
+                                                    <li>
+                                                        <strong> mb </strong> margin-bottom:;</li>
+                                                    <li>
+                                                        <strong> mb:a </strong> margin-bottom:auto;</li>
+                                                    <li>
+                                                        <strong> ml:a </strong> margin-left:auto;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> pt </strong> padding-top:;</li>
+                                                    <li>
+                                                        <strong> pr </strong> padding-right:;</li>
+                                                    <li>
+                                                        <strong> pb </strong> padding-bottom:;</li>
+                                                    <li>
+                                                        <strong> pl </strong> padding-left:;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> </strong>
+                                                    </li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <p>
+                                        <strong>Box Sizing</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>bxz = box sizing</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>h = height</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>w = width</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> bxz </strong> box-sizing:border-box;</li>
+                                                    <li>
+                                                        <strong> bxz:cb </strong> box-sizing:content-box;</li>
+                                                    <li>
+                                                        <strong> bxz:bb </strong> box-sizing:border-box;</li>
+
+
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> w:a </strong> width:auto;</li>
+                                                    <li>
+                                                        <strong> maw </strong> max-width:;</li>
+                                                    <li>
+                                                        <strong> maw:n </strong> max-width:none;</li>
+                                                    <li>
+                                                        <strong> miw </strong> min-width:;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> h:a </strong> height:auto;</li>
+                                                    <li>
+                                                        <strong> mah </strong> max-height:;</li>
+                                                    <li>
+                                                        <strong> mah:n </strong> max-height:none;</li>
+                                                    <li>
+                                                        <strong> mih </strong> min-height:;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa 1x"></i></a>
+                                    </p>
+                                    <p>
+                                        <strong>Font</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>f = font</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>fw = font-weight</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>fs = font-style</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> f+ </strong> font:1em Arial,sans-serif;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> fw:n </strong> font-weight:normal;</li>
+                                                    <li>
+                                                        <strong> fw:b </strong> font-weight:bold;</li>
+                                                    <li>
+                                                        <strong> fw:br </strong> font-weight:bolder;</li>
+                                                    <li>
+                                                        <strong> fw:lr </strong> font-weight:lighter;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> fs </strong> font-style:${italic}; </li>
+                                                    <li>
+                                                        <strong> fs:n </strong> font-style:normal;</li>
+                                                    <li>
+                                                        <strong> fs:i </strong> font-style:italic;</li>
+                                                    <li>
+                                                        <strong> fs:o </strong> font-style:oblique;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <p>
+                                        <strong>Text</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>ta = text-align</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>va = vertical-align</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>td = text-decoration</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> ta:l </strong> text-align:left;</li>
+
+                                                    <li>
+                                                        <strong> ta:c </strong> text-align:center;</li>
+                                                    <li>
+                                                        <strong> ta:r </strong> text-align:right;</li>
+                                                    <li>
+                                                        <strong> ta:j </strong> text-align:justify;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> va:t </strong> vertical-align:top;</li>
+                                                    <li>
+                                                        <strong> va:sup </strong> vertical-align:super;</li>
+                                                    <li>
+                                                        <strong> va:t </strong> vertical-align:top;</li>
+                                                    <li>
+                                                        <strong> va:tt </strong> vertical-align:text-top;</li>
+                                                    <li>
+                                                        <strong> va:m </strong> vertical-align:middle;</li>
+                                                    <li>
+                                                        <strong> va:bl </strong> vertical-align:baseline;</li>
+                                                    <li>
+                                                        <strong> va : b </strong>vertical-align:bottom;</li>
+                                                    <li>
+                                                        <strong> va:tb </strong> vertical-align:text-bottom;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> td:n </strong> text-decoration:none;</li>
+                                                    <li>
+                                                        <strong> td:u </strong> text-decoration:underline;</li>
+                                                    <li>
+                                                        <strong> td:o </strong> text-decoration:overline;</li>
+                                                    <li>
+                                                        <strong> td:l </strong> text-decoration:line-through;</li>
+                                                    <li>
+                                                        <strong> va:m </strong> vertical-align:middle;</li>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>th = text-height</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>tj = text-justify</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>tt = text-transform</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> th:a </strong> text-height:auto;</li>
+
+                                                    <li>
+                                                        <strong> th:f </strong> text-height:font-size;</li>
+                                                    <li>
+                                                        <strong> th:t </strong> text-height:text-size;</li>
+                                                    <li>
+                                                        <strong> th:m </strong> text-height:max-size;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> tj:a </strong> text-justify:auto;</li>
+                                                    <li>
+                                                        <strong> tj:iw </strong> text-justify:inter-word;</li>
+                                                    <li>
+                                                        <strong> tj:ii </strong> text-justify:inter-ideograph;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> tt </strong> text-transform:uppercase;</li>
+                                                    <li>
+                                                        <strong> tt:n </strong> text-transform:none;</li>
+                                                    <li>
+                                                        <strong> tt:c </strong> text-transform:capitalize;</li>
+                                                    <li>
+                                                        <strong> tt:u </strong> text-transform:uppercase;</li>
+                                                    <li>
+                                                        <strong> h </strong> line-height:;</li>
+                                                    <li>
+                                                        <strong> lts </strong> letter-spacing:;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa 1x"></i></a>
+                                    </p>
+
+                                    <p>
+                                        <strong>Background</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>bgc = background-color
+                                                        <br> bgi = background-image</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>bgr = background-repeat</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>bgq = background-attachment
+                                                        <br> bgp = background-position</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> bg </strong> background</li>
+                                                    <li>
+                                                        <strong> b+ </strong> background:#fff url() 0 0 no-repeat;</li>
+
+                                                    <li>
+                                                        <strong> bg:n </strong> background:none;</li>
+                                                    <li>
+                                                        <strong> bgc </strong> background-color:#fff;</li>
+                                                    <li>
+                                                        <strong> bgc:t </strong> background-color:transparent;</li>
+                                                    <li>
+                                                        <strong> bgi </strong> background-image:url();</li>
+                                                    <li>
+                                                        <strong> bgi:n </strong> background-image:none;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> bgr </strong> background-repeat:; </li>
+                                                    <li>
+                                                        <strong> bgr:n </strong> background-repeat:no-repeat;</li>
+                                                    <li>
+                                                        <strong> bgr:x </strong> background-repeat:repeat-x; </li>
+                                                    <li>
+                                                        <strong> bgr:x </strong> background-repeat:repeat-x; </li>
+                                                    <li>
+                                                        <strong> bgr:y </strong> background-repeat:repeat-y; </li>
+                                                    <li>
+                                                        <strong> bgr:sp </strong> background-repeat:space;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>
+                                                        <strong> bga </strong> background-attachment:;</li>
+                                                    <li>
+                                                        <strong> bga:f </strong> background-attachment:fixed;</li>
+                                                    <li>
+                                                        <strong> bga:s </strong> background-attachment:scroll;</li>
+                                                    <li>
+                                                        <strong> bgp </strong> background-position:0 0;</li>
+                                                    <li>
+                                                        <strong> bgpx </strong>background-position-x:;</li>
+                                                    <li>
+                                                        <strong> bgpy </strong> background-position-y:;</li>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                    <p>
+                                        <strong>Lists / Tables / Color</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>lis = list-style</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>tbl = table-layout</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong>c= color</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> lis:n </strong> list-style:none;
+                                                    </li>
+
+                                                    <li>
+                                                        <strong> lisp </strong> list-style-position:;</li>
+                                                    <li>
+                                                        <strong> lisp:i </strong> list-style-position:inside;</li>
+                                                    <li>
+                                                        <strong> lisp:o </strong> list-style-position:outside;</li>
+                                                    <li>
+                                                        <strong> list </strong> list-style-type:;</li>
+                                                    <li>
+                                                        <strong> list:n </strong> list-style-type:none;</li>
+                                                    <li>
+                                                        <strong> list:d </strong> list-style-type:disc;</li>
+                                                    <li>
+                                                        <strong> list:c
+                                                        </strong> t-style-type:circle;
+                                                    </li>
+                                                    <li>
+                                                        <strong> lisi </strong> list-style-image:;</li>
+                                                    <li>
+                                                        <strong> lisi:n </strong> list-style-image:none;</li>
+                                                </td>
+                                                <td>
+                                                    <li>
+                                                        <strong> tbl </strong> table-layout:; </li>
+                                                    <li>
+                                                        <strong> tbl:a </strong> table-layout:auto;</li>
+                                                    <li>
+                                                        <strong> tbl:f </strong> table-layout:fixed; </li>
+                                                    <li>
+                                                        <strong> cps </strong> caption-side:; </li>
+                                                    <li>
+                                                        <strong> cps:t </strong> caption-side:top;</li>
+                                                    <li>
+                                                        <strong> cps:b </strong> caption-side:bottom;</li>
+                                                    <li>
+                                                        <strong> ec </strong> empty-cells:;</li>
+                                                    <li>
+                                                        <strong> ec:s </strong> empty-cells:show;</li>
+                                                    <li>
+                                                        <strong> ec:h </strong> empty-cells:hide;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>
+                                                        <strong> c </strong> color:#000;</li>
+                                                    <li>
+                                                        <strong> c:r </strong> color:rgb(0, 0, 0);</li>
+                                                    <li>
+                                                        <strong> c:ra </strong> color:rgba(0, 0, 0, .5);</li>
+                                                    <li>
+                                                        <strong> op </strong> opacity:;</li>
+                                                    <li>
+                                                        <strong> bgpx </strong>background-position-x:;</li>
+                                                    <li>
+                                                        <strong> bgpy </strong> background-position-y:;</li>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa 1x"></i></a>
+                                    </p>
+
+                                    <p>
+                                        <strong>Border</strong>
+                                    </p>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th width="350">
+                                                    <strong>bd = border</strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong></strong>
+                                                </th>
+                                                <th width="350">
+                                                    <strong></strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <li>
+                                                        <strong> bd </strong> border:;
+                                                    </li>
+
+                                                    <li>
+                                                        <strong> bd+ </strong> border:1px solid #000;</li>
+                                                    <li>
+                                                        <strong> bd:n </strong> border:none;</li>
+                                                    <li>
+                                                        <strong> bdbk </strong> border-break:close;</li>
+                                                    <li>
+                                                        <strong> bdcl </strong> border-collapse:;</li>
+                                                    <li>
+                                                        <strong> bdc </strong> border-color:#000;</li>
+                                                    <li>
+                                                        <strong> bdc:t </strong> border-color:transparent;</li>
+                                                    <li>
+                                                        <strong> bdi </strong> border-image:url(); </li>
+                                                    <li>
+                                                        <strong> bdi:n </strong> border-image:none;</li>
+                                                    <li>
+                                                        <strong> bdti </strong> border-top-image:url();</li>
+                                                    <li>
+                                                        <strong> bdri </strong> border-right-image:url();</li>
+                                                    <li>
+                                                        <strong> bdbi </strong> border-bottom-image:url();</li>
+                                                    <li>
+                                                        <strong> bdli </strong> border-left-image:url();</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>
+                                                        <strong> bdci </strong> border-corner-image:url();</li>
+                                                    <li>
+                                                        <strong> bdci:n </strong> border-corner-image:none;</li>
+                                                    <li>
+                                                        <strong> bdci:c </strong> border-corner-image:continue;</li>
+                                                    <li>
+                                                        <strong> bdf </strong> border-fit:repeat;</li>
+                                                    <li>
+                                                        <strong> bdf:r </strong> border-fit:repeat;</li>
+                                                    <li>
+                                                        <strong> bds </strong> border-style:;</li>
+                                                    <li>
+                                                        <strong> bds:n </strong> border-style:none;</li>
+                                                    <li>
+                                                        <strong> bds:h </strong> border-style:hidden;</li>
+                                                    <li>
+                                                        <strong> bds:s </strong> border-style:solid;</li>
+                                                </td>
+
+                                                <td>
+                                                    <li>
+                                                        <strong> bdw </strong> border-width:;</li>
+                                                    <li>
+                                                        <strong> bdt, bt </strong> border-top:;</li>
+                                                    <li>
+                                                        <strong> bdt+ </strong> border-top:1px solid #000;</li>
+                                                    <li>
+                                                        <strong> bdt:n </strong> border-top:none;</li>
+                                                    <li>
+                                                        <strong> bdtw </strong>border-top-width:;</li>
+                                                    <li>
+                                                        <strong> bdts </strong> border-top-style:;</li>
+                                                    <li>
+                                                        <strong> bdtc </strong> border-top-color:#000;</li>
+                                                    <li>
+                                                        <strong> bdr, br </strong> border-right:;</li>
+                                                    <li>
+                                                        <strong> bdr+ </strong>border-right:1px solid #000;</li>
+                                                    <li>
+                                                        <strong> bdr:n </strong> border-right:none;</li>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>
+                                        <a href="#top_of_page" class="button round button info footer"><i class="fa fa-angle-double-up fa 1x"></i></a>
+                                    </p>
+
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--#container-->
+
+
+    <!-- script foundation -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+    <!-- script boilerplate -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+
+</html>
